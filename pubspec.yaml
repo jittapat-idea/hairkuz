@@ -1,0 +1,155 @@
+name: image_test
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  
+
+dev_dependencies:
+  gradient_app_bar: ^0.0.1
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/hair2.png
+    - images/mainmenu/hair.png
+    - images/mainmenu/fuc1.png
+    - images/mainmenu/fuc2.png
+    - images/mainmenu/fuc3.png
+    - images/mainmenu/fuc4.png
+    - images/facemenu/face1.png
+    - images/facemenu/face2.png
+    - images/facemenu/face3.png
+    - images/facemenu/face4.png
+    - images/facemenu/face5.png
+    - images/facemenu/face6.png
+    - images/facemenu/face7.png
+    - images/toolmenu/tol1.jpg
+    - images/toolmenu/tol2.jpg
+    - images/toolmenu/tol3.jpg
+    - images/toolmenu/tol4.jpg
+    - images/toolmenu/tol5.png
+    - images/toolmenu/tol6.png
+    - images/toolmenu/tol7.jpg
+    - images/toolmenu/tol8.jpg
+    - images/toolmenu/tol9.jpg
+    - images/toolmenu/tol10.jpg
+    - images/toolmenu/tol11.png
+    - images/Hairtoolmenu/pro1.jpg
+    - images/Hairtoolmenu/pro2.jpg
+    - images/Hairtoolmenu/pro3.jpg
+    - images/Hairtoolmenu/pro4.jpg
+    - images/Hairtoolmenu/pro5.png
+    - images/triangleFace/D1.jpg
+    - images/triangleFace/D2.jpg
+    - images/triangleFace/D3.jpg
+    - images/triangleFace/D4.jpg
+    - images/triangleFace/D5.jpg
+    - images/circleFace/A1.jpg
+    - images/circleFace/A2.jpg
+    - images/circleFace/A3.jpg
+    - images/circleFace/A4.jpg
+    - images/circleFace/A5.jpg
+    - images/eggFace/B1.jpg
+    - images/eggFace/B2.jpg
+    - images/eggFace/B3.jpg
+    - images/eggFace/B4.jpg
+    - images/eggFace/B5.jpg
+    - images/diamondFace/C1.jpg
+    - images/diamondFace/C2.jpg
+    - images/diamondFace/C3.jpg
+    - images/diamondFace/C4.jpg
+    - images/diamondFace/C5.jpg
+    - images/squareFace/E1.jpg
+    - images/squareFace/E2.jpg
+    - images/squareFace/E3.jpg
+    - images/squareFace/E4.jpg
+    - images/squareFace/E5.jpg
+    - images/rectangleFace/F1.jpg
+    - images/rectangleFace/F2.jpg
+    - images/rectangleFace/F3.jpg
+    - images/rectangleFace/F4.jpg
+    - images/rectangleFace/F5.jpg
+    - images/heartFace/G1.jpg
+    - images/heartFace/G2.jpg
+    - images/heartFace/G3.jpg
+    - images/heartFace/G4.jpg
+    - images/heartFace/G5.jpg
+    - images/colormenu/01.jpg
+    - images/colormenu/02.jpg
+    - images/colormenu/03.jpg
+    - images/colormenu/04.jpg
+    - images/colormenu/05.jpg
+    - images/colormenu/06.jpg
+    - images/colormenu/07.jpg
+    - images/colormenu/recommend/rec01.jpg
+    - images/colormenu/recommend/rec02.jpg
+    - images/colormenu/recommend/rec03.jpg
+    - images/colormenu/recommend/rec04.jpg
+    - images/colormenu/recommend/rec05.jpg
+    - images/colormenu/recommend/rec06.jpg
+    # - images/a_dot_ham.jpeg
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Kanit
+       fonts:
+         - asset: fonts/Kanit-Medium.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
